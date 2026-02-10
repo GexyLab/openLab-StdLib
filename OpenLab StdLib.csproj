@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows8.0</TargetFramework>
+    <RootNamespace>OpenLabStdLib</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<UseWPF>true</UseWPF>
+    <Title>OpenLab Standrd Lib</Title>
+    <Version>1.1.0</Version>
+    <Description>The OpenLab Standard Library</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="GeJSON">
+      <HintPath>..\OpenLab Studio\OpenLab Studio\lib\GeJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenLabSDK">
+      <HintPath>..\OpenLab Studio\OpenLab Studio\lib\OpenLabSDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
