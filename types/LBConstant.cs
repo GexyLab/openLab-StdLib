@@ -42,7 +42,7 @@ namespace OpenLabStdLib.types
         {
             public string UID => "";
 
-            public string Title => "Variable";
+            public string Title => "Constant";
 
             public int[] version => [1, 0, 0];
 
@@ -50,7 +50,7 @@ namespace OpenLabStdLib.types
 
             public string url => "";
 
-            public string description => "Constant";
+            public string description => "Constant value";
 
             public string instrumentsMenuCategoryTitle => "Types";
         }

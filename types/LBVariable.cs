@@ -44,7 +44,7 @@ namespace OpenLabStdLib.types
 
             public string url => "";
 
-            public string description => "Variable";
+            public string description => "Variable value";
 
             public string instrumentsMenuCategoryTitle => "Types";
         }
